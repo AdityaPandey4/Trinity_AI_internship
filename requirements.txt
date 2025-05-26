@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+requests
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+sentence-transformers
+faiss-cpu
+# Add these if using CrewAI
+crewai
+crewai_tools
