@@ -6,7 +6,8 @@ This project implements a Smart City Information Assistant using a Retrieval Aug
 ## Table of Contents
 
 1.  [Features](#features)
-2.  [Project Structure](#project-structure)
+2.  [Project Architecture](#project-architecture)
+3.  [Project Structure](#project-structure)
 5.  [Setup Instructions](#setup-instructions)
     *   [1. Clone the Repository](#1-clone-the-repository)
     *   [2. Create a Virtual Environment](#2-create-a-virtual-environment)
@@ -36,6 +37,15 @@ This project implements a Smart City Information Assistant using a Retrieval Aug
 *   **Vector Search:** Allows direct semantic search over the knowledge base.
 *   **CrewAI Integration (Optional):** Demonstrates a multi-agent approach for handling complex queries with specialized agents.
 *   **Local Embeddings:** Uses Hugging Face sentence transformers for local text embedding.
+
+
+## Project Architecture
+### Only RAG Pipeline
+![Capture](https://github.com/user-attachments/assets/b58c22ad-bae9-44a8-97f5-3f5957b4fb57)
+
+### Crew AI implementation
+
+![Capture2](https://github.com/user-attachments/assets/5854ff1c-befd-4077-907e-3445daa78e72)
 
 ## Project Structure
 ```markdown
