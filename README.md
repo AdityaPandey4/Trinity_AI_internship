@@ -40,17 +40,17 @@ This project implements a Smart City Information Assistant using a Retrieval Aug
 ## Project Structure
 ```markdown
 smart_city_assistant/
-├── app/ # FastAPI application and RAG logic
-│ ├── main.py # FastAPI app, endpoints, RAG initialization
-│ ├── models.py # Pydantic models for API requests/responses
-│ └── crew_tools.py # Tools for CrewAI agents (if using CrewAI)
-├── frontend.py # Streamlit frontend application
-├── knowledge.json # The core knowledge base for the assistant
-├── faiss_index_city_info_hf/ # Stores the pre-computed FAISS vector index
+├── app/       # FastAPI application and RAG logic
+│ ├── main.py       # FastAPI app, endpoints, RAG initialization
+│ ├── models.py       # Pydantic models for API requests/responses
+│ └── crew_tools.py       # Tools for CrewAI agents (if using CrewAI)
+├── frontend.py          # Streamlit frontend application
+├── knowledge.json          # The core knowledge base for the assistant
+├── faiss_index_city_info_hf/     # Stores the pre-computed FAISS vector index
 │ └── index.faiss
 │ └── index.pkl
-├── README.md # This file
-└── requirements.txt # Python package dependencies 
+├── README.md                  # This file
+└── requirements.txt          # Python package dependencies 
 ```
 ## Setup Instructions
 
