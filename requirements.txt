@@ -11,4 +11,4 @@ sentence-transformers
 faiss-cpu
 # Add these if using CrewAI
 crewai
-crewai_tools
+crewai-tools
