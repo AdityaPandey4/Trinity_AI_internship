@@ -67,7 +67,7 @@ smart_city_assistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/AdityaPandey4/Trinity_AI_internship.git
 cd smart_city_assistant
 ```
 ### 2. Create a Virtual Environment
